@@ -54,6 +54,24 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;}
+  ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+ul {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 </style>
 </head>
 <div class="row">
@@ -78,20 +96,31 @@ a:active {
 <a href="blog.html">Tech</a>
 </div>
 <div class="column">
-<a href="core.html">Cultural</a>
+<a href="core.html">Core</a>
 </div>
 <div class="column">
-<a href="aboutme.html">About Me</a>
+<a href="url">About Me</a>
 </div>
 </div>
 <body>
-    <title>Begining of new journey</title>
-    <h1>Kia Ora!</h1> 
-       <div> <p class="blocktext"> This is my first ever blog and website. As you probably guessed by now, I really like mountain biking.
-          So, I have decided to decorate it with some pictures of it. This blog will be about programming, my personal experiences and journey through the world of programming. 
-          I expect it to be fascinating, challenging and very interesting. Coding for me is the skill that everyone should try. You can create something without using physical materials, resources.
-           It is just the terminal and the power of your mind. You can turn numbers, letters and symbols into whatever you want. You can make monitors of millions of people around the world to display what you want.
-            You can express yourself, share your thoughts, pictures and memories. You can do everything you want. Isn't it fascinating?
+    <title>Cultural</title>
+
+ <h1>EQ and IQ</h1>
+
+
+     <p class="blocktext"> 
+         <ul>
+        <li>What is Emotional Intelligence?</li>
+        Emotional intelligence is ability to identify and manage your own emotions but also to understand and influence emotions of others.
+        It is crucial skill when it come to human contact and in my opinion mandatory to be a person who is satisfied with own life. 
+        <li>How is it different to IQ?</li>
+        It's different because instead of noticing, analysing and solving problems it measures our ability to notice analyse and manage our emotions which are also very important in our life. 
+        <li>Why is it important?</li>
+        It' important as emotions are driving our live affecting our decisions and wellbeing. Every single relationship is based on emotions, every single second of our life has emotions in it.
+        Very often people are making crucial live choices based on their emotions, so understanding and having them under control is very valuable skill that everyone should obtain. 
+        </ul>
+        
+
     </p>
   </div>
   </body>

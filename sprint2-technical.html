@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rationale&display=swap" rel="stylesheet">
+<head>
+<style> 
+body {background-color:  #494747; } 
+h1   {color: rgb(243, 3, 143); text-align: center;} 
+h2  {
+  text-align: left;
+  margin-left: 300px;
+  color: rgb(0, 255, 115);
+  margin-top: 200px;
+}
+h3 {
+  text-align: left;
+  margin-left: 300px;
+  color: rgb(0, 255, 115);
+  margin-top: 200px;
+  font-size: 35pt;
+}
+head {position: center;}
+body {font-family: 'Rationale', sans-serif; text-align: center;}
+body {
+  font-size: 30px;
+  color: rgb(0, 174, 255);
+}
+body {background-image: url("1.jpg"); background-size:contain}
+body
+{
+  box-sizing: border-box;
+}
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0px;
+  margin: 0px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a:link {
+  color: rgb(208, 255, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(208, 255, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color:rgb(243, 3, 143);
+}
+
+/* selected link */
+a:active {
+  color: blue;}
+
+  div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #95ff00;
+  margin: 0 auto;
+  }
+  
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #95ff00;
+    
+  }
+  div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #95ff00;
+  }
+  .rel {
+  margin-top: 100px;
+  }
+</style>
+</head>
+<div class="row">
+  <div class="column">
+<img src="https://media.gettyimages.com/photos/man-with-pedelec-riding-uphill-in-mountains-saalfelden-tyrol-austria-picture-id1143552094?k=6&m=1143552094&s=612x612&w=0&h=0PAFNuYj90DYJSLM1Knw6-kK7mOGIn_CrBpXfVie1Eo=" >
+</div>
+<div class="column">
+  <img src="https://media.gettyimages.com/photos/biker-riding-on-a-mountain-trail-picture-id531024681?k=6&m=531024681&s=612x612&w=0&h=kbetatQON2VbEbVtt_Zbx58oEqW7qpTNzgCV9ddmEzs=" >
+</div>
+  <div class="column">
+<img src="https://media.gettyimages.com/photos/one-mountain-biker-high-up-in-european-alps-picture-id1124750238?k=6&m=1124750238&s=612x612&w=0&h=gWtjCo8BMaSm2Yb-8ZwMMUO2ro7BKVHuV4lBVNwqqyc=" >
+</div>
+<div class="column">
+<img src="https://media.gettyimages.com/photos/germany-bavaria-pfronten-mountainbiker-riding-downhill-on-alpine-picture-id900233822?k=6&m=900233822&s=612x612&w=0&h=1TkANYxG-KWLctSEAT7AbcJ-k_Cb1aKWk62JrbwO1qw=" >
+</div>
+</div>
+<div class="row">
+  <div class="column">
+<a href="index.html">Home</a>
+</div>
+<div class="column">
+<a href="blog.html">Tech</a>
+</div>
+<div class="column">
+<a href="core.html">Cultural</a>
+</div>
+<div class="column">
+<a href="aboutme.html">About Me</a>
+</div>
+</div>
+<body>
+    <title>Begining of new journey</title>
+    <h1>Blog Time!</h1> 
+       <div> <p class="blocktext"> Today I will explain the differences between relative, absolute, and fixed positioning.
+       
+        </div>
+    </p>
+
+
+
+    <h2>Position absolute and relative:</h2>
+    <div><p class="blocktext">An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+      However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+         
+    </p></div>
+    <div class="relative">This div element has position: relative;
+      <div class="absolute">This div element has position: absolute;</div>
+    </div>
+    <img class="rel" src= "rel.jpg">
+  </div>
+  <h3>Position fixed:</h3>
+  <div>
+  <p class="blocktext">An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+
+        Notice the fixed element in the lower-right corner of the page.</p></div>
+ <img class="rel" src= "fix1.jpg">
+  </div>
+  <div class="fixed">
+    This div element has position: fixed;
+    </div>
+    
+  </body>
+</html>
