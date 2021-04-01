@@ -1,0 +1,139 @@
+body {background-color: #494747; } 
+h1   {color: rgb(243, 3, 143); text-align: center;} 
+head {position: center;}
+body {font-family: 'Rationale', sans-serif; text-align: center;
+ 
+  font-size: 30px;
+  color: rgb(0, 174, 255);
+
+background-image: url("1.jpg"); background-size:contain
+
+
+ 
+}
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0px;
+  margin: 0px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a:link {
+  color: rgb(208, 255, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(208, 255, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color:rgb(243, 3, 143);
+}
+
+/* selected link */
+a:active {
+  color: blue;}
+
+  body {background-color: #494747; } 
+  h1   {color: rgb(243, 3, 143); text-align: center;} 
+  head {position: center;}
+  body {font-family: 'Rationale', sans-serif; text-align: center;}
+  body {
+    font-size: 30px;
+    color: rgb(0, 174, 255);
+  }
+  body {background-image: url("1.jpg"); background-size:contain}
+  body
+  {
+    box-sizing: border-box;
+  }
+  P.blocktext {
+      margin-left: auto;
+      margin-right: auto;
+      width: 30em
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  a:link {
+    color: rgb(208, 255, 0);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(208, 255, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:rgb(243, 3, 143);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;}
+    body {bakground-color: #494747; } 
+    h1   {color: rgb(243, 3, 143); text-align: center;} 
+    head {position: center;}
+    body {font-family: 'Rationale', sans-serif; text-align: center;}
+    body {
+      font-size: 30px;
+      color: rgb(0, 174, 255);
+    }
+    body {background-image: url("1.jpg"); background-size:contain}
+    body
+    {
+      box-sizing: border-box;
+    }
+    P.blocktext {
+        margin-left: auto;
+        margin-right: auto;
+        width: 30em
+    }
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0px;
+      margin: 0px;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    a:link {
+      color: rgb(208, 255, 0);
+    }
+    
+    /* visited link */
+    a:visited {
+      color: rgb(208, 255, 0);
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color:rgb(243, 3, 143);
+    }
+    
+    /* selected link */
+    a:active {
+      color: blue;}
